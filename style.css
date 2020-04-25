@@ -1,0 +1,15 @@
+.head_top{
+    display: flex;
+}
+
+.head_down{
+    display: flex;
+}
+
+button{
+    background-color: #34547A;
+    opacity: 0.8;
+    color: #fff;
+    border-color: #34547A;
+    
+}
