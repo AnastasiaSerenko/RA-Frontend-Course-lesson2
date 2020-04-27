@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Roboto";
-    src: url("./Fonts/roboto/Roboto.ttf");
+    src: url("./fonts/roboto/Roboto.ttf");
     font-style: normal;
     font-weight: normal;
 }
@@ -9,13 +9,13 @@ body{
     font-family: "Roboto";
 }
 
-.page{
+.page_head{
     width: 1920px;
     height: 693px;
 }
 .head{
     
-    padding: 56px 402px;
+    padding: 56px 405px;
 }
 
 .head_top{
@@ -86,4 +86,138 @@ button{
     height: 64px; 
     
 }
+
+/* Обо мне */
+.about-me{
+font-family: "Roboto";
+padding-top: 120px;
+
+}
+
+.about-me_top{
+    width: 1110px;
+    text-align: center;
+    padding-left: 405px;
+}
+
+.about-me_top_text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.about-me_middle{
+    background-color: #34547A;
+    width: 1920px;
+    height: 250px;
+    text-align: justify;
+}
+
+.about-me_middle_item{
+    padding-top: 100px;
+    width: 141px;
+    height: 50px;
+    margin-right: 45px;
+}
+
+.about-me_middle_item_first{
+    padding-left: 405px;
+}
+
+.about-me_middle_item_last{
+    margin-right: 0;
+}
+
+.about-me_down_scales {
+    width: 400px;
+    margin: 40px;
+  }
+  
+  .about-me_down_scales_indicator {
+    height: 4px;
+    background-color: #C4C4C4;
+  }
+  
+  .indicator__percent {
+    display: block;
+    height: 100%;
+    background-color: #34547A;
+  }
+
+ .about-me_down_scales_text{
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 26px;
+    color: #727272;
+  }
+
+.about-me_down{
+    display: flex;
+    height: 450;
+    width: 1110px;
+    padding-left: 402px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-me_down_face{
+    width: 550px;
+    height: 450;
+}
+
+/* Как я работаю*/
+.page-work{
+    width: 1920px;
+    height: 1004px;
+}
+.work{
+padding: 0 0 0 405px;
+width: 1110px;
+height: 1004px;
+text-align: center;
+font-family: "Roboto";
+}
+
+h2{
+    font-size: 32px;
+}
+.work_text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    padding-bottom: 57px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.work_video{
+    position: relative;
+}
+.work_video img{
+    width: 1110px;
+    height: 600px;
+    display: block;
+
+}
+
+.work_video:before{
+    content: '';
+    opacity: 0.4;
+    position: absolute;
+    width: 1110px;
+    height: 100%;
+    background-color: black;
+    display: block;
+}
+
+.work_video_icon{
+    position: absolute;
+
+}
+
 
