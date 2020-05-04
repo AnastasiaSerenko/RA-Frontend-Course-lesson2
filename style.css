@@ -181,6 +181,7 @@ width: 1110px;
 height: 1004px;
 text-align: center;
 font-family: "Roboto";
+margin: 0 0  0 0;
 }
 
 h2{
@@ -195,6 +196,8 @@ h2{
     color: #727272;
 }
 
+
+
 .work_video{
     position: relative;
 }
@@ -202,7 +205,6 @@ h2{
     width: 1110px;
     height: 600px;
     display: block;
-
 }
 
 .work_video:before{
@@ -215,9 +217,18 @@ h2{
     display: block;
 }
 
-.work_video_icon{
-    position: absolute;
 
+.work_button_style{
+    border-radius: 50%;
+    background-image: url(./images/icon-video.png);
+    border: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 238px;
+    margin-left: 505px;
+    display: block;
 }
+
 
 
