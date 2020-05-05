@@ -4,69 +4,53 @@
     font-style: normal;
     font-weight: normal;
 }
-
 body{
     font-family: "Roboto";
 }
-
-.page_head{
+.page{
     width: 1920px;
-    height: 693px;
 }
-.head{
-    
+.head{   
     padding: 56px 405px;
 }
-
-.head_top{
+.head-top{
     display: flex;
     justify-content: space-between;
 }
-
-.head_top_img{
+.logo{
     width: 96px;
     height: 60px;
 }
-
-.head_top_menu_item{
+.head-top__menu-item{
     transition: 0.001s color;
     text-decoration: none;
     color: #000;
     font-size: 16px;
+    text-transform: uppercase;
 }
-.head_top_menu_item:hover{
+.head-top__menu-item:hover, .head-top__menu-item_property_hover{
     color: #34547A;  
 }
-
-
-.main{
-    color: #34547A;      
-}
-
-.head_down{
+.head-down{
     display: flex;
     padding: 160px 0 0 100px;
     align-items: center;   
 }
-
-.head_down_img{
+.head-down__img{
     width: 357px;
     height: 231px;
     padding-right: 130px;
-
 }
-.head_down_content{
+.head-down__content{
     padding: 0;
-
 }
-.head_down_content_title{
+.head-down__title{
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 60px;
     padding: 0;
 }
-
-.head_down_content_text{
+.head-down__text{
     font-size: 16px;
     line-height: 25px;
     color: #727272;
@@ -74,7 +58,6 @@ body{
     margin-bottom: 60px;
     padding: 0;
 }
-
 button{
     background-color: #34547A;
     opacity: 0.8;
@@ -83,24 +66,21 @@ button{
     padding: 20px 40px;
     font-size: 16px;
     width: 225px;
-    height: 64px; 
-    
+    height: 64px;
+    text-transform: uppercase;  
 }
 
 /* Обо мне */
 .about-me{
 font-family: "Roboto";
 padding-top: 120px;
-
 }
-
-.about-me_top{
+.about-me__top{
     width: 1110px;
     text-align: center;
     padding-left: 405px;
 }
-
-.about-me_top_text{
+.about-me__text{
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 0;
@@ -108,53 +88,44 @@ padding-top: 120px;
     line-height: 26px;
     color: #727272;
 }
-
-.about-me_middle{
+.about-me__middle{
     background-color: #34547A;
     width: 1920px;
     height: 250px;
     text-align: justify;
 }
-
-.about-me_middle_item{
+.about-me__item{
     padding-top: 100px;
     width: 141px;
     height: 50px;
     margin-right: 45px;
 }
-
-.about-me_middle_item_first{
+.about-me__item_position_first{
     padding-left: 405px;
 }
-
-.about-me_middle_item_last{
+.about-me__item_position_last{
     margin-right: 0;
 }
-
-.about-me_down_scales {
+.scales{
     width: 400px;
     margin: 40px;
-  }
-  
-  .about-me_down_scales_indicator {
+ }
+.scales__indicator{
     height: 4px;
     background-color: #C4C4C4;
-  }
-  
-  .indicator__percent {
+}
+.indicator__percent{
     display: block;
     height: 100%;
     background-color: #34547A;
   }
-
- .about-me_down_scales_text{
+.scales__text{
     font-size: 16px;
     line-height: 26px;
     line-height: 26px;
     color: #727272;
   }
-
-.about-me_down{
+.about-me__down{
     display: flex;
     height: 450;
     width: 1110px;
@@ -164,17 +135,11 @@ padding-top: 120px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-.about-me_down_face{
+.about-me__face{
     width: 550px;
     height: 450;
 }
-
 /* Как я работаю*/
-.page-work{
-    width: 1920px;
-    height: 1004px;
-}
 .work{
 padding: 0 0 0 405px;
 width: 1110px;
@@ -183,11 +148,10 @@ text-align: center;
 font-family: "Roboto";
 margin: 0 0  0 0;
 }
-
 h2{
     font-size: 32px;
 }
-.work_text{
+.work__text{
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 0;
@@ -195,19 +159,15 @@ h2{
     line-height: 26px;
     color: #727272;
 }
-
-
-
-.work_video{
+.work__video{
     position: relative;
 }
-.work_video img{
+.work__video{
     width: 1110px;
     height: 600px;
     display: block;
 }
-
-.work_video:before{
+.work__video:before{
     content: '';
     opacity: 0.4;
     position: absolute;
@@ -216,9 +176,7 @@ h2{
     background-color: black;
     display: block;
 }
-
-
-.work_button_style{
+.work__button{
     border-radius: 50%;
     background-image: url(./images/icon-video.png);
     border: none;
@@ -229,6 +187,4 @@ h2{
     margin-left: 505px;
     display: block;
 }
-
-
 
